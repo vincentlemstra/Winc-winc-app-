@@ -22,10 +22,62 @@
       <h1>Sing Up</h1>
       <form>
         <label for="name">Name:</label><br />
-        <input type="text" id="fname" name="fname" /><br />
-
-        <label for="lname">Last name:</label><br />
-        <input type="text" id="lname" name="lname" />
+        <input type="text" id="name" name="name" /><br />
+        <label for="username">Username:</label><br />
+        <input type="text" id="username" name="username" /><br />
+        <label for="self-description">Self description:</label><br />
+        <textarea id="self-description" name="description">
+Write here...</textarea
+        ><br />
+        <label for="gender">Gender:</label><br />
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option></select
+        ><br />
+        <p>What is your age?</p>
+        <label for="18-25">18-25</label>
+        <input type="radio" id="18-25" name="age" value="18-25" /><br />
+        <label for="65-35">26-35</label>
+        <input type="radio" id="26-35" name="age" value="26-35" /><br />
+        <label for="36-45">36-45</label>
+        <input type="radio" id="36-45" name="age" value="36-45" /><br />
+        <label for="46-55">46-55</label>
+        <input type="radio" id="46-55" name="age" value="46-55" /><br />
+        <label for="56+">56+</label>
+        <input type="radio" id="56+" name="age" value="56+" /><br />
+        <p>Hobbies:</p>
+        <label for="hobby1">Cooking</label>
+        <input
+          type="checkbox"
+          id="hobby1"
+          name="hobby1"
+          value="cooking"
+        /><br />
+        <label for="hobby2">Sport activities</label>
+        <input
+          type="checkbox"
+          id="hobby2"
+          name="hobby2"
+          value="sport-activities"
+        /><br />
+        <label for="hobby3">Programming</label>
+        <input
+          type="checkbox"
+          id="hobby3"
+          name="hobby3"
+          value="Programming"
+        /><br />
+        <label for="hobby4">Gaming</label>
+        <input
+          type="checkbox"
+          id="hobby4"
+          name="hobby4"
+          value="gaming"
+        /><br /><br />
+        <label for="email">Email Adress</label><br /><br />
+        <input type="email" id="email" name="email" />
+        <input type="submit" value="Submit" />
       </form>
     </main>
 

@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: 'Martel', serif;
   background-color: #F5F5F5;
-  box-sizing: border-box;
 }
 
 h1, h2, h3 {
@@ -65,6 +64,7 @@ article {
   border-radius: 35px;
   margin: 10px;
   text-align: center;
+  width: 30%;
 }
 
 article a {
